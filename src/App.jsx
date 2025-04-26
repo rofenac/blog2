@@ -10,7 +10,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/jsonreformatter" element={<JsonReformatter />} />
     </Routes>
   )
 }
