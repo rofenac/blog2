@@ -1,3 +1,3 @@
-# My ReactJS Blog
+# My IS 390 Blog
 
-### This blog will chronicle my ReactJS journey and how I develop the Darn Fine PMP Quiz App (DFPMPQA). Huzzah!
+### This blog will chronicle my journey into the nascent field of Quantum AI.
