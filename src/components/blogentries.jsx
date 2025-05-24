@@ -1,6 +1,24 @@
 // Blog entries for the blog page
+import mindMapImage from '../assets/mind_map.png';
 
 export const blogEntries = [
+  {
+    title: 'Lab Activity, Week Four - Mapping Your Mind and Other Curious Hobbies',
+    date: '30 Apr 2025',
+    content: `Here are five of my research sources and the associated mind map:
+    
+    Press, G. (2025, April 8). The coming convergence of AI and quantum computing. Forbes. https://www.forbes.com/sites/gilpress/2025/04/08/the-coming-convergence-of-ai-and-quantum-computing/
+    
+    Alexeev, Y., Farag, M. H., Patti, T. L., Wolf, M. E., Ares, N., Aspuru-Guzik, A., Benjamin, S. C., Cai, Z., Chandani, Z., Fedele, F., Harrigan, N., Kim, J.-S., Kyoseva, E., Lietz, J. G., Lubowe, T., McCaskey, A., Melko, R. G., Nakaji, K., Peruzzo, A., Stanwyck, S., Tubman, N. M., Wang, H., & Costa, T. (2024). Artificial intelligence for quantum computing. arXiv Preprint arXiv:2411.09131. https://arxiv.org/abs/2411.09131:contentReference[oaicite:0]{index=0}
+    
+    Klusch, M., Lässig, J., Müssig, D., Macaluso, A., & Wilhelm, F. K. (2024). Quantum artificial intelligence: A brief survey. KI - Künstliche Intelligenz, 38, 257–276. https://doi.org/10.1007/s13218-024-00871-8:contentReference[oaicite:1]{index=1}
+    
+    Sudabathula, B. (2025). The convergence of quantum computing and AI: Reshaping the future of machine learning. International Journal of Information Technology & Management Information System, 16(1), 46–57. https://doi.org/10.34218/IJITMIS_16_01_005:contentReference[oaicite:2]{index=2}
+    
+    Wang, Z., & Tang, H. (2024). Artificial intelligence for quantum error correction: A comprehensive review. arXiv Preprint arXiv:2412.20380. https://arxiv.org/abs/2412.20380:contentReference[oaicite:3]{index=3}
+
+[MINDMAP]`
+  },
   {
     title: 'Module 3 Journal Entry - Qubit for Your Thoughts',
     date: '25 Apr 2025',
