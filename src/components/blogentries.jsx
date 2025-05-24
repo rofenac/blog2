@@ -1,7 +1,76 @@
 // Blog entries for the blog page
-import mindMapImage from '../assets/mind_map.png';
+//import mindMapImage from '../assets/mind_map.png';
 
 export const blogEntries = [
+  {
+    title: 'Lab Activity, Week Five - The Visual Ethics of Quantum AI Research',
+    date: '07 May 2025',
+    content: `I've encountered a fascinating intersection of technology ethics that extends beyond the algorithms themselves—the ethics of visual representation and image licensing. This week's exploration into Creative Commons licensing has opened my eyes to the complex world of intellectual property in the digital age.
+    
+    **__Creative Commons Image: The Foundation of Open Research__**
+    For my primary Creative Commons image, I selected a visualization from Pixabay showing an AI generated quantum computer. The idea of AI generating what it thinks the next generation of comptuers looks like is amusing to me. After reviewing Pixabay's Terms of Service, I discovered this image uses Pixabay's proprietary license (not CC0, as only pre-2019 content is CC0).
+    **Image Citation:** AI Generated Quantum Computer by TheDigitalArtist. (2024). Retrieved from Pixabay. Licensed under Pixabay License. https://pixabay.com/illustrations/ai-generated-quantum-computer-7958893/
+    **Licensing Details:** Pixabay's license grants royalty-free commercial and non-commercial use rights, but with important restrictions: the content cannot be sold or distributed on a "standalone basis" without creative modification. This means I can use it in my research report (which adds creative context) but couldn't sell the image alone as merchandise.
+    **How I'll Use It:** This image might serve as a visual enhancement in my final research report. To me it's an homage to the next generation of computing.
+    
+    **__Wikimedia Commons: True Creative Commons__**
+    Upon realizing Pixabay's licensing complexity, I searched Wikimedia Commons for genuine Creative Commons licensed images and some quantum computing photos.
+    **Image Citation:** Alice and Bob Cryostat by Various Contributors. (2024). Retrieved from Wikimedia Commons. Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). https://commons.wikimedia.org wiki/Category:Quantum_computers#/media/File:Alice_and_Bob_Cryostat.jpg
+    **Licensing Details:** CC BY-SA 4.0 allows commercial use, modification, and distribution, requiring only attribution and that derivative works use the same license. This represents true Creative Commons licensing with clear, predictable terms.
+    
+    **__Getty Images: The Professional Standard__**
+    For comparison, I examined a professional stock photo from Getty Images featuring a functioning quantum computer.
+    **Image Citation:** Illustration of a Working Quantum Computer by Getty Images Contributor. (2024). Getty Images Royalty-Free License. All rights reserved. https://www.gettyimages.com/detail/photo/illustration-of-a-working-quantum-computer-quantum-royalty-free-image/2156615862?adppopup=true
+    **Licensing Requirements:** This image requires a paid license ranging from $175-$375 depending on usage rights and size. Commercial use requires premium licensing, and any publication would need specific permissions and fees.
+    **Potential Use:** While visually stunning and professionally shot, the cost and restrictions make this impractical for academic use. However, in a commercial setting—say, if I were presenting findings to investors or at a corporate conference—this type of professional imagery would add credibility and polish.
+    
+    **__Dreamstime: The Middle Ground__**
+    A third option I explored was Dreamstime, which offers quantum AI visualizations under royalty-free licenses.
+    **Image Citation:** Cyborg Hand Holding Quantum Computing Concept with Qubit Devices by Dreamstime Contributor. (2024). Dreamstime Royalty-Free License. https://www.dreamstime.com/cyborg-hand-holding-quantum-computing-concept-qubit-devices-d-rendering-view-image146377372
+    **Licensing Requirements:** One-time purchase ($10-50) grants lifetime usage rights for specified purposes, but commercial distribution still requires extended licenses.
+    **Application Strategy:** This represents a reasonable middle ground for projects that need higher quality than CC0 images but can't justify Getty's premium pricing.
+    
+    **__Ethical Considerations and Academic Integrity__**
+    This exercise has illuminated several critical issues:
+    **Platform-Specific Licensing Complexity:** My initial assumption about Pixabay offering CC0 images was only partially correct. This highlights the importance of reading actual Terms of Service rather than relying on general reputation or third-party summaries.
+    **"Free" vs. "Libre":** Pixabay images are free to use but come with restrictions that could impact future commercial applications. True Creative Commons licenses like those on Wikimedia Commons offer more predictable legal frameworks.
+    **Academic vs. Commercial Considerations:** While Pixabay's license works perfectly for my academic research (which clearly constitutes creative, non-standalone use), understanding these distinctions now prepares me for potential future commercialization where licensing could become a significant business consideration.
+    
+    **__Research Application Strategy__**
+    For my final Quantum AI research report, I'll employ a tiered visual strategy:
+    1.	Wikimedia Commons CC BY-SA images for primary illustrations requiring clear commercial-use rights
+    2.	Pixabay licensed images for supporting visuals in academic contexts (with awareness of standalone restrictions)
+    3.	Fair use citations for essential copyrighted materials from academic sources
+    4.	Original diagrams and charts to avoid licensing complexities entirely
+    This approach ensures both legal compliance and visual impact while respecting the diverse intellectual property frameworks that support different creative communities. The key lesson: always read the actual terms, not just the marketing description. The intersection of visual ethics and emerging technologies like quantum AI creates fascinating parallels—both involve questions of authenticity, ownership, and the responsible use of powerful tools. Just as we must consider the ethical implications of artificial intelligence algorithms, we must also thoughtfully navigate the visual representation of our research in the digital age.`,
+  },
+  {
+    title: 'Module 4 Journal Entry - Navigating the Resource Maze: A QAI Research Arsenal',
+    date: '03 May 2025',
+    content: `As I dive deeper into the convergence of quantum computing and AI, I've assembled quite the research arsenal. Let me break down the different types of resources I've wielded in this intellectual battle, because honestly, some have been game-changers while others... well, let's just say they've taught me valuable lessons about discernment.
+    
+    Scholarly Journals: The Heavy Artillery
+    These peer-reviewed powerhouses like the "International Journal of Information Technology & Management Information System" have been my most reliable weapons. Take Sudabathula's (2025) work on QAI convergence – it's dense, rigorously vetted, and packed with citations that lead to even more treasure troves. The strength? Credibility and depth that would make a librarian weep with joy. The limitation? Sometimes I need a dictionary for the dictionary. As a non-mathematician wading through quantum mechanics jargon, I often find myself swimming in an ocean of terminology that assumes knowledge I'm still building.
+    
+    ArXiv Preprints: The Cutting Edge
+    Sources like Alexeev et al.'s (2024) work on AI for quantum computing give me access to the bleeding edge of research before it hits traditional journals. It's like getting tomorrow's newspaper today. The upside? Fresh insights and current developments. The downside? No peer review safety net means I have to be extra vigilant about credibility.
+    
+    Industry Publications: The Reality Check
+    Forbes articles, like Press's (2025) piece on AI-quantum convergence, bridge the gap between academic theory and real-world application. They translate the "what" into "so what?" for broader audiences. However, they sometimes sacrifice technical depth for accessibility – great for context, but I can't build a research foundation on them alone.
+    
+    The Verdict
+    Each resource type serves a specific purpose in my research ecosystem. Scholarly journals provide the backbone, preprints offer cutting-edge insights, and industry publications ensure I stay grounded in practical applications. The key is knowing when to deploy each weapon in this intellectual arsenal.
+    
+    References:
+    - Alexeev, Y., et al. (2024). Artificial intelligence for quantum computing. arXiv Preprint arXiv:2411.09131. https://arxiv.org/abs/2411.09131
+    - Press, G. (2025, April 8). The coming convergence of AI and quantum computing. Forbes. https://www.forbes.com/sites/gilpress/2025/04/08/the-coming-convergence-of-ai-and-quantum-computing/
+    - Sudabathula, B. (2025). The convergence of quantum computing and AI: Reshaping the future of machine learning. International Journal of Information Technology & Management Information System, 16(1), 46–57.`,
+  },
+  {
+    title: 'Module 4 Progress Report - Challenges',
+    date: '02 May 2025',
+    content: `This quarter has been a challenge for me. I have had to deal with some personal issues that have made it difficult to focus on my research. I am still working on my rough draft, but I am not where I want to be. I have been using the OC library and LLMs to gather sources, but I feel like I need to spend more time evaluating them. I am also struggling with the writing process. I have a lot of ideas, but I am having trouble organizing them into a coherent paper. I hope to make more progress in the coming weeks.`,
+  },
   {
     title: 'Lab Activity, Week Four - Mapping Your Mind and Other Curious Hobbies',
     date: '30 Apr 2025',
