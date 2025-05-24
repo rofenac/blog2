@@ -46,31 +46,36 @@ function BlogTemplate({ title, date, content }) {
   }
   
   const renderSections = (sections) => {
-    return sections.map((section, index) => {
+    const result = []
+    let i = 0
+    
+    while (i < sections.length) {
+      const section = sections[i]
+      
       if (section.includes('[IMAGE]')) {
-        return (
+        result.push(
           <img 
-            key={index}
+            key={i}
             src={localStorageImg} 
             alt="localStorage example" 
             className="w-full h-auto rounded-lg shadow-md my-4" 
           />
         )
       }
-      if (section.includes('[IMAGE2]')) {
-        return (
+      else if (section.includes('[IMAGE2]')) {
+        result.push(
           <img 
-            key={index}
+            key={i}
             src={nastyGram} 
             alt="Nasty Gram example" 
             className="w-full h-auto rounded-lg shadow-md my-4" 
           />
         )
       }
-      if (section.includes('[MINDMAP]')) {
-        return (
+      else if (section.includes('[MINDMAP]')) {
+        result.push(
           <img 
-            key={index}
+            key={i}
             src={mindMapImage} 
             alt="Mind Map" 
             style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '1em 0' }}
@@ -78,27 +83,89 @@ function BlogTemplate({ title, date, content }) {
           />
         )
       }
-      if (section.startsWith('```') && section.endsWith('```')) {
+      else if (section.startsWith('```') && section.endsWith('```')) {
         const code = section.slice(3, -3).trim()
-        return (
-          <pre key={index} className="bg-base-200 p-4 rounded-lg overflow-x-auto my-4">
+        result.push(
+          <pre key={i} className="bg-base-200 p-4 rounded-lg overflow-x-auto my-4">
             <code className="text-sm">
               {code}
             </code>
           </pre>
         )
       }
-      if (section === '\n') {
-        return <br key={index} />
+      else if (section === '\n') {
+        result.push(<br key={i} />)
       }
-      return (
-        <p 
-          key={index} 
-          className="mb-2 leading-relaxed"
-          dangerouslySetInnerHTML={{ __html: formatText(section) }}
-        />
-      )
-    })
+      else if (section.trim().startsWith('- ') || section.trim().startsWith('* ')) {
+        // Group consecutive list items
+        const listItems = []
+        while (i < sections.length && (sections[i].trim().startsWith('- ') || sections[i].trim().startsWith('* ') || sections[i] === '\n')) {
+          if (sections[i] !== '\n') {
+            listItems.push(sections[i].trim().substring(2)) // Remove the '- ' or '* '
+          }
+          i++
+        }
+        i-- // Adjust because the while loop will increment
+        
+        result.push(
+          <ul key={i} className="list-disc list-inside mb-2 space-y-0">
+            {listItems.map((item, idx) => (
+              <li key={idx} className="leading-tight" dangerouslySetInnerHTML={{ __html: formatText(item) }} />
+            ))}
+          </ul>
+        )
+      }
+      else if (section.match(/^\d+\./)) {
+        // Handle numbered lists
+        const listItems = []
+        while (i < sections.length && (sections[i].match(/^\d+\./) || sections[i] === '\n')) {
+          if (sections[i] !== '\n') {
+            listItems.push(sections[i].trim())
+          }
+          i++
+        }
+        i-- // Adjust because the while loop will increment
+        
+        result.push(
+          <ol key={i} className="list-decimal list-inside mb-2 space-y-0">
+            {listItems.map((item, idx) => (
+              <li key={idx} className="leading-tight" dangerouslySetInnerHTML={{ __html: formatText(item.replace(/^\d+\.\s*/, '')) }} />
+            ))}
+          </ol>
+        )
+      }
+      else {
+        // Check if this is a memo header or short line for tighter spacing
+        const isMemoHeader = (
+          section.includes('**TO:**') || 
+          section.includes('**FROM:**') || 
+          section.includes('**DATE:**') || 
+          section.includes('**RE:**') ||
+          section.trim() === 'BRIEFING MEMO'
+        )
+        
+        const isShortLine = section.length < 150 && (
+          isMemoHeader ||
+          section.startsWith('**') ||
+          section.includes('**For ') ||
+          section.includes('**1.') ||
+          section.includes('**2.') ||
+          section.includes('**3.') ||
+          section.includes('**4.')
+        )
+        
+        result.push(
+          <p 
+            key={i} 
+            className={isMemoHeader ? "mb-0 leading-tight" : isShortLine ? "mb-1 leading-tight" : "mb-2 leading-relaxed"}
+            dangerouslySetInnerHTML={{ __html: formatText(section) }}
+          />
+        )
+      }
+      i++
+    }
+    
+    return result
   }
   
   return (

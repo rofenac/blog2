@@ -3,6 +3,85 @@
 
 export const blogEntries = [
   {
+    title: 'Module 6 Journal Entry - Research Briefing Memo',
+    date: '17 May 2025',
+    content: `BRIEFING MEMO
+    **TO:** Technology Leadership and Academic Community  
+    **FROM:** David Derr
+    **DATE:** May 17, 2025
+    **RE:** The Convergence of Quantum Computing and Artificial Intelligence: Current State and Future Implications
+    
+    **__EXECUTIVE SUMMARY__**
+    The convergence of quantum computing and artificial intelligence represents one of the most significant technological developments of the 21st century. This briefing memo synthesizes current research findings on Quantum AI (QAI), revealing that while theoretical frameworks are rapidly advancing, practical implementation timelines remain uncertain. Key findings indicate that QAI development is progressing simultaneously along multiple pathways: quantum computing enhancement through AI-driven error correction, and AI advancement through quantum computational power.
+    
+    **__BACKGROUND__**
+    Quantum computing and artificial intelligence have evolved as separate technological domains, but recent research demonstrates increasing convergence potential. Quantum computing leverages quantum mechanical properties like superposition and entanglement to perform certain calculations exponentially faster than classical computers. Meanwhile, AI continues to face computational limitations that quantum technologies may overcome.
+    
+    **__KEY RESEARCH FINDINGS__**
+    
+    **1. Bidirectional Enhancement Relationship**
+    Research by Alexeev et al. (2024) demonstrates that the quantum-AI relationship is bidirectional, with each technology enhancing the other. Their comprehensive analysis reveals that "artificial intelligence for quantum computing" encompasses both AI algorithms improving quantum system performance and quantum computing accelerating AI capabilities beyond classical limitations.
+    
+    **2. Error Correction as Primary Near-Term Application**
+    Wang and Tang (2024) identify quantum error correction as the most immediate practical application of QAI convergence. Their research indicates that AI algorithms can significantly improve quantum system reliability, addressing one of quantum computing's primary obstacles to commercial viability.
+    
+    **3. Commercial Viability Timeline Challenges**
+    While Sudabathula (2025) argues that QAI convergence is "reshaping the future of machine learning," specific implementation timelines remain unclear. Industry analysis by Press (2025) suggests that theoretical advances are outpacing practical deployment capabilities, creating a gap between research potential and commercial reality.
+    
+    **4. Industry-Specific Applications Emerging**
+    Klusch et al. (2024) document early QAI applications in cybersecurity, pharmaceuticals, and financial modeling. However, these applications remain largely experimental, with limited large-scale deployment.
+    
+    **__IMPLICATIONS AND RECOMMENDATIONS__**
+    
+    **For Technology Leaders:**
+    - Begin strategic planning for QAI integration while maintaining realistic timeline expectations
+    - Invest in quantum-literate AI talent development programs
+    - Establish partnerships with quantum computing research institutions
+    
+    **For Academic Institutions:**
+    - Develop interdisciplinary programs combining quantum physics and computer science
+    - Prioritize quantum error correction research as a near-term practical focus
+    - Create industry collaboration frameworks for QAI development
+    
+    **For Policy Makers:**
+    - Consider regulatory frameworks for quantum-enhanced AI systems
+    - Support research funding that addresses practical implementation challenges
+    - Develop workforce development programs for emerging QAI fields
+    
+    **__RESEARCH GAPS AND FUTURE DIRECTIONS__**
+    
+    Current literature reveals significant gaps in:
+    1. **Timeline Predictions:** While convergence inevitability appears certain, practical deployment timelines remain speculative
+    2. **Scalability Analysis:** Limited research on scaling QAI systems beyond laboratory environments  
+    3. **Economic Impact Assessment:** Insufficient analysis of economic disruption potential and mitigation strategies
+    
+    **__CONCLUSION__**
+    Quantum AI represents a paradigm shift with profound implications across multiple sectors. While theoretical foundations are solidifying, the transition from research to practical application requires continued investigation, particularly regarding implementation timelines and scalability challenges. Organizations should begin strategic preparation while maintaining realistic expectations about deployment schedules.`,
+  },
+  {
+    title: 'Module 6 Progress Report - A Light at the End of the Tunnel',
+    date: '16 May 2025',
+    content: `My personal issues have calmed down enough for me to resume the project in earnest. Before I was treading water, doing the minimum to keep up with the weekly assignments. But now I feel like I have some breathing space and can focus properly on the project. Going forward, I have most of my sources selected and vetted. I SHOULD be ready to begin the rough draft next week. I have had to leverage Google's NotebookLM to not only track, but also evaluate and interaect with my sources. Since I am behind on my work, NotebookLM is my primary tool for my sources since it is more reobust and capable than Zotero or other similar tools. It's been a rough quarter but I am excited to get back on track.`,
+  },
+  {
+    title: 'Module 5 Journal Entry - The Quantum AI Puzzle: How My Sources Are Building the Big Picture',
+    date: '10 May 2025',
+    content: `I'm starting to see how my sources function like pieces of a complex puzzle—some reinforcing each other, others filling crucial gaps, and a few creating fascinating contradictions that push my understanding forward.
+    **__The Foundation: Academic Convergence__**
+    My core academic sources create a solid foundation of agreement. Sudabathula's (2025) work in the International Journal of Information Technology & Management Information System establishes that quantum computing and AI convergence is "reshaping the future of machine learning," while Alexeev et al.'s (2024) comprehensive arXiv preprint provides the technical backbone, detailing how "artificial intelligence for quantum computing" creates bidirectional benefits. These sources complement each other beautifully—Sudabathula focuses on the "what" and "why," while Alexeev's team dives into the "how."
+    **Filling the Application Gap**
+    Where my academic sources excel in theory, Press's (2025) Forbes article fills a critical gap by translating these concepts into real-world implications. While Klusch et al. (2024) discuss quantum artificial intelligence as theoretical framework in KI - Künstliche Intelligenz, Press bridges to commercial reality, explaining why this convergence matters beyond academia. This industry perspective prevents my research from becoming too ivory-tower abstract.
+    **The Contradiction That Clarifies**
+    The most interesting tension emerges between Wang and Tang's (2024) focus on quantum error correction through AI versus Alexeev et al.'s broader view of AI-quantum synergy. Wang and Tang argue that AI's primary value lies in solving quantum computing's reliability problems, while Alexeev's team presents a more expansive vision where quantum computing enhances AI capabilities. This apparent contradiction actually illuminates a crucial insight: QAI development is happening simultaneously on multiple fronts—quantum computing needs AI to become practical, while AI needs quantum computing to break current computational limits.
+    **Knowledge Gaps Still Emerging**
+    I've identified a significant gap in my research: the timeline question. While my sources agree that QAI convergence is inevitable and transformative, none provide concrete predictions about when these theoretical advances will translate into practical applications. This gap might become a defining focus for my final research paper—exploring not just what QAI will achieve, but when we can realistically expect these breakthroughs. The beauty of research emerges in these moments when disparate sources begin conversations with each other, creating understanding greater than the sum of their parts.`,
+  },
+  {
+    title: 'Module 5 Progress Report - Challenges Continue',
+    date: '09 May 2025',
+    content: `Nothing much to report this week. School work has had to take a back seat to some personal issues. I am still working on my rough draft, but I am not where I want to be. I have been using the OC library and LLMs to gather sources, but I feel like I need to spend more time evaluating them. More to follow.`,
+  },
+  {
     title: 'Lab Activity, Week Five - The Visual Ethics of Quantum AI Research',
     date: '07 May 2025',
     content: `I've encountered a fascinating intersection of technology ethics that extends beyond the algorithms themselves—the ethics of visual representation and image licensing. This week's exploration into Creative Commons licensing has opened my eyes to the complex world of intellectual property in the digital age.
