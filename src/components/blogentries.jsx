@@ -3,6 +3,46 @@
 
 export const blogEntries = [
   {
+    title: 'Module 8 Journal Entry - Fake is Good!',
+    date: '31 May 2025',
+    content: `1. Game-style learning beats the experts. I assumed "serious" quantum error-correction would still rely on heavy math. Turns out researchers let a reinforcement-learning agent—basically an AI that learns by trial-and-error like a video-game bot—fix qubit errors, and it edges out the long-standing minimum-weight-perfect-matching algorithm on the toric code. The papers even report it creeping toward the theoretical error threshold that classical tricks rarely reach .
+    
+    2. AI is already the mechanic for real qubit hardware. Keeping a qubit stable means fiddling with dozens of voltages and timing knobs every morning—something I imagined only PhD physicists could do. Several labs now let machine-learning models auto-tune those settings and diagnose problems in minutes, not hours, shaving huge setup time for ion-trap and superconducting chips .
+    
+    3. "Fake" quantum data is a feature, not a bug. Because today's devices are tiny and noisy, teams simulate millions of circuit runs on GPU clusters, then feed that synthetic data to their AI decoders. One review calls this a fast-growing subfield that sidesteps the hardware bottleneck while still improving real-world performance . I never expected computer-generated “practice games” to be an accepted research path, but it makes perfect sense when lab time is scarce.`,
+  },
+  {
+    title: 'Module 8 Progress Report - Quantum Madness',
+    date: '30 May 2025',
+    content: `Solid progress is being made. One issue I have encountered is that QAI has its own vocabulary plus it involves a lot of science terms that I have not heard of since highs school. That is fine, but it does slow progress a bit. Other than that, I'm haze gray and underway.`,
+  },
+  {
+    title: 'Module 7 Journal Entry - Assumptions Make a Jack a Dull Boy',
+    date: '24 May 2025',
+    content: `1. Notably, I entered this project with zero preconceived notions—just curiosity. Seeing the same four themes resurface across independent papers gave me confidence that my nascent “map” of the field isnit a random conjecture but a consensus snapshot. Cataloging the overlaps also sharpened my elevator pitch: “AI is the crutch quantum needs today, and quantum is the rocket AI wants tomorrow.” Next week Iill test that line on a lab-mate and watch if their eyebrows rise or fall.
+    
+    2. When you sift through dense literature on AI-quantum convergence long enough, patterns start to pop like qubits collapsing under measurement. Four big take-aways kept echoing across nearly everything I read:
+    A. AI is already boosting quantum error-correction performance. Both the NVIDIA-led review on AI for Quantum Computing and the comprehensive survey Artificial Intelligence for Quantum Error Correction report that machine-learning decoders beat classical algorithms in accuracy and speed, especially on surface codes.
+    B. Quantum hardware promises speed-ups for data-hungry ML tasks. The Quantum Artificial Intelligence brief survey and Sudabathula's 2025 article agree that quantum processors can, in principle, accelerate kernel methods, sampling problems, and high-dimensional feature mapping well beyond classical limits.
+    C. We're stuck in the noisy-intermediate-scale-quantum (NISQ) phase—so error mitigation reigns supreme. Multiple authors emphasize that today's qubits decohere before you can say “Hadamard,” making resilient error-correction and mitigation the gating factor for useful machines.
+    D. Progress depends on tight, interdisciplinary collaboration. From hardware design labs to algorithm benches, every source stresses that quantum physicists, AI researchers, and systems engineers must co-design solutions; breakthroughs rarely come from siloed teams.`,
+  },
+  {
+    title: 'Module 7 Journal Entry - ',
+    date: '22 May 2025',
+    content: `This I have finally gotten some real traction on this paper. The outline is solid, the sources are vetted, and I have a clear path forward. I am currently working on the rough draft, which I hope to have done by the end of this week. The biggest challenge has been synthesizing all the information from my sources into a coherent narrative. I continue to use NotebookLM to help me keep track of my sources and to generate ideas for the paper. I feel like I am finally on track to finish this project on time. Next week I plan to continue working on the rough draft and hopefully have it done by the end of the week.`,
+  },
+  {
+    title: 'Module 7 Progress Report - The Coming Dawn',
+    date: '22 May 2025',
+    content: `This I have finally gotten some real traction on this paper. The outline is solid, the sources are vetted, and I have a clear path forward. I am currently working on the rough draft, which I hope to have done by the end of this week. The biggest challenge has been synthesizing all the information from my sources into a coherent narrative. I continue to use NotebookLM to help me keep track of my sources and to generate ideas for the paper. I feel like I am finally on track to finish this project on time. Next week I plan to continue working on the rough draft and hopefully have it done by the end of the week.`,
+  },
+  {
+    title: 'Lab Activity, Week Seven - Collaboration: Accelerator and Mirror',
+    date: '21 May 2025',
+    content: `When I think about the moments my work really leveled-up, a pattern emerges: none of them happened while I was flying solo. In my very first group project at [school / workplace], I discovered that hashing out ideas aloud was like running code through a debugger—you see the weak spots instantly. Collaboration also serves as a mirror. Honest peer feedback exposed blind spots I had developed around confirmation bias in my literature review. Those uncomfortable moments saved me weeks of going down the wrong rabbit hole. Of course teaming isn't friction-free: mismatched pacing and unclear authorship expectations can sting. Walking into future projects (academic or corporate) I now treat collaboration not as a last-minute add-on but as core infrastructure—an amplifier of impact and a hedge against error. If research is about expanding the frontier of what's known, collaboration is the vehicle that gets us there before the funding runs out.`,
+  },
+  {
     title: 'Module 6 Journal Entry - Research Briefing Memo',
     date: '17 May 2025',
     content: `BRIEFING MEMO
