@@ -3,6 +3,24 @@
 
 export const blogEntries = [
   {
+    title: 'Module 9 Journal Entry - Research Beats Gut Instinct Every Time',
+    date: '07 Jun 2025',
+    content: `We've all heard stories about successful entrepreneurs who "went with their gut" and struck gold. But for every Steve Jobs trusting his instinct, there are countless business failures that never make headlines. When it comes to making smart business decisions, research offers clear advantages over seat-of-the-pants decision making.
+    
+    Research provides concrete data that removes personal bias from the equation. When Netflix decided to shift from DVD rentals to streaming, they didn't just guess that consumers wanted digital content. They analyzed viewing patterns, internet adoption rates, and customer feedback data. This research-driven approach helped them dominate the market while competitors like Blockbuster stuck to gut feelings about physical media.
+    
+    Seat-of-the-pants decisions are essentially educated guesses based on limited information. Research expands that information pool dramatically. Market research can reveal customer preferences, competitive analysis shows what's working for others, and financial modeling predicts potential outcomes. This doesn't guarantee success, but it significantly improves your odds.
+    
+    Critics argue that research takes too long and opportunities disappear while you're gathering data. There's some truth here, analysis paralysis is real. However, modern research tools and techniques can provide insights quickly. Online surveys, social media analytics, and A/B testing can generate actionable data in days or weeks, not months.
+    
+    Smart decision-making combines both research and intuition. Research provides the foundation of facts and data, while experience and judgment help interpret those findings. Companies that consistently outperform their competitors like Amazon, Google, and Apple are famously data-driven organizations that make research a core part of their decision-making process. The goal isn't to eliminate all risk, but to make informed decisions based on the best available information. In today's competitive business environment, flying blind isn't just risky, it's reckless.`,
+  },
+  {
+    title: 'Module 9 Progress Report - The Last Update',
+    date: '06 Jun 2025',
+    content: `This is it, the final stretch. It's been a dificult quarter but I am confident that I will finish strong. The draft of my paper is nearly done. I think I need to move my presentation to the 18th though. While my paper is looking good, the presentation and publication have taken a back seat. An extra week will help me get to where I need to be. Things were rocky for a bit, but I can see the light at the end of the tunnel.`,
+  },
+  {
     title: 'Module 8 Journal Entry - Fake is Good!',
     date: '31 May 2025',
     content: `1. Game-style learning beats the experts. I assumed "serious" quantum error-correction would still rely on heavy math. Turns out researchers let a reinforcement-learning agent—basically an AI that learns by trial-and-error like a video-game bot—fix qubit errors, and it edges out the long-standing minimum-weight-perfect-matching algorithm on the toric code. The papers even report it creeping toward the theoretical error threshold that classical tricks rarely reach .
